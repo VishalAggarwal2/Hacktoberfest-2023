@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faInstagram,faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import the GitHub and Instagram icons
+import { faGithub, faInstagram,faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'; // Import the GitHub and Instagram icons
 
 const Footer = () => {
   return (
@@ -15,11 +15,14 @@ const Footer = () => {
       <a href="https://www.linkedin.com/feed/" target='main'>
       <FontAwesomeIcon icon={faLinkedin} beatFade size='xl' style={{ color: "#ffffff" }} />
       </a>
+      <a href="https://www.youtube.com/@Aggragor/about" target='main'>
+      <FontAwesomeIcon icon={faYoutube} beatFade size='xl' style={{ color: "#ffffff" }} />
+      </a>
     </div>
-    
+
     <div className="copyright">
       All Right Preserved By Rishav
-
+  
     </div>
     </divm>
   );
