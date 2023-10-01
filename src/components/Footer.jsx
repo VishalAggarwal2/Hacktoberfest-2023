@@ -16,8 +16,10 @@ const Footer = () => {
       <FontAwesomeIcon icon={faLinkedin} beatFade size='xl' style={{ color: "#ffffff" }} />
       </a>
     </div>
+    
     <div className="copyright">
       All Right Preserved By Rishav
+
     </div>
     </divm>
   );
