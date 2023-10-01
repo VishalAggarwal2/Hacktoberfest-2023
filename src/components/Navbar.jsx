@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import Eyes from "./Eyes";
+
 
 const Navbar = () => {
   const [active, setActive] = useState("");
