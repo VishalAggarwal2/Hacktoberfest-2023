@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import Eyes from "./Eyes";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -48,6 +49,8 @@ const Navbar = () => {
             <span className='sm:block hidden'> | Portfolio</span>
           </p>
         </Link>
+        
+      <Eyes></Eyes>
 
           {/* Hidden flex box added so that if small device no */}
         <ul className='list-none hidden sm:flex flex-row gap-10'>
