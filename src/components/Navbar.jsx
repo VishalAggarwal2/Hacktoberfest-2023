@@ -5,7 +5,6 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
-
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -49,9 +48,6 @@ const Navbar = () => {
             <span className='sm:block hidden'> | Portfolio</span>
           </p>
         </Link>
-        
-      <Eyes></Eyes>
-
           {/* Hidden flex box added so that if small device no */}
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
